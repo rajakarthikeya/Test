@@ -24,7 +24,10 @@ public class DisplayPattern {
 			System.out.println(emptyStr+ rowToPrint);
 		}
 		
-		System.out.println(args[0]+" "+ args[1]);
+		System.out.println("Arguments:");
+        for (String arg : args) {
+            System.out.println("\t" + arg);
+        }
 		
 		throw new Exception();
 	}
