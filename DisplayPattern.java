@@ -1,9 +1,10 @@
 
 public class DisplayPattern {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws Exception{
 		int k = 5;
 		String emptyStr = "";
+		
 		for (int i = 1; i < k; i++) {
 			emptyStr = generateSpaces(i);
 			String rowToPrint = "";
@@ -22,6 +23,7 @@ public class DisplayPattern {
 			}
 			System.out.println(emptyStr+ rowToPrint);
 		}
+		throw new Exception();
 	}
 	private static String generateSpaces(int count) {
 		String s = "";
