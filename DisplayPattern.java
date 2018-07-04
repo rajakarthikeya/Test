@@ -1,7 +1,7 @@
 
 public class DisplayPattern {
 
-	public static void main(String[] args) throws Exception{
+	public static void main(String[] args) {
 		int k = 5;
 		String emptyStr = "";
 		
@@ -32,7 +32,6 @@ public class DisplayPattern {
         System.out.println("Environment Variables");
         System.out.println(System.getenv("EnvTestVariable"));
 		
-		throw new Exception();
 	}
 	private static String generateSpaces(int count) {
 		String s = "";
