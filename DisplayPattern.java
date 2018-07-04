@@ -23,6 +23,9 @@ public class DisplayPattern {
 			}
 			System.out.println(emptyStr+ rowToPrint);
 		}
+		
+		System.out.println(args[0]+" "+ args[1]);
+		
 		throw new Exception();
 	}
 	private static String generateSpaces(int count) {
