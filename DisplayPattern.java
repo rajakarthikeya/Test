@@ -28,6 +28,9 @@ public class DisplayPattern {
         for (String arg : args) {
             System.out.println("\t" + arg);
         }
+        
+        System.out.println("Environment Variables");
+        System.out.println(System.getenv("EnvTestVariable"));
 		
 		throw new Exception();
 	}
