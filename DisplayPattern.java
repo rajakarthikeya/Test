@@ -31,7 +31,7 @@ public class DisplayPattern {
         
         System.out.println("Environment Variables");
         System.out.println(System.getenv("EnvTestVariable"));
-		
+	System.out.println(System.getenv("Added 0- EnvTestVariable"));	
 	}
 	private static String generateSpaces(int count) {
 		String s = "";
